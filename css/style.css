@@ -8,6 +8,22 @@
   --btn-color: #ffffff;
   --team-background-color: #f5f4fa;
   --footer-background: #2f303a;
+  --header-link-studio: #212121;
+  --header-link_mail:#757575;
+  --header-link-tel:#757575;
+  --main-title:#ffffff;
+  --main-h:#212121;
+  --main-text:#757575;
+  --about:#212121;
+  --team:#212121;
+  --team-name:#212121;
+  --team-post:#757575;
+  --main-servies:#212121;
+  --main-description:#757575;
+  --footer-color-logo: #ffffff;
+  --footer-address:#ffffff;
+
+
 }
 
 body {
@@ -38,7 +54,7 @@ color: var(--logo-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--header-link-studio)
 }
 .header-link {
   font-weight: 500;
@@ -65,7 +81,7 @@ color: var(--logo-color);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--header-link_mail)
 }
 .header-link-tel {
   font-family: Roboto;
@@ -74,7 +90,7 @@ color: var(--logo-color);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color:var(--header-link-tel)
 }
 .header-link_mail:hover,
 .header-link_mail:focus {
@@ -99,7 +115,7 @@ a {
   font-family: Roboto;
   font-size: 44px;
   line-height: 1.5;
-  color: white;
+  color:var(--main-title)
 }
 .btn {
   font-family: Roboto;
@@ -119,14 +135,14 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color:var(--main-h)
 }
 .main-text {
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:var(--main-text)
 }
 
 /* about company */
@@ -135,7 +151,7 @@ a {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
+  color:var(--about)
 }
 /* team section */
 .team-list {
@@ -146,7 +162,7 @@ a {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
+  color:var(--team)
 }
 .team-name {
   font-family: Roboto;
@@ -155,7 +171,7 @@ a {
   font-size: 16px;
   line-height: 0.84;
   letter-spacing: 0.03em;
-  color: #212121;
+  color:var(--team-name)
 }
 .team-post {
   font-family: Roboto;
@@ -164,7 +180,7 @@ a {
   font-size: 16px;
   line-height: 0.84;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:var(--team-post)
 }
 /* portfolio */
 .portfolio-btn:hover,
@@ -189,14 +205,14 @@ a {
   font-weight: bold;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--header-link)
+  color:var(--main-servies)
 }
 .main-description {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:var(--main-description)
 }
 
 /* Footer section */
@@ -204,7 +220,7 @@ a {
   background-color: var(--footer-background);
 }
 .footer-color-logo {
-  color: white;
+  color:var(--footer-color-logo)
 }
 .footer-address {
   font-family: Roboto;
@@ -213,7 +229,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color:var(--footer-address)
 }
 .footer-address:hover,
 .footer-address:focus {
