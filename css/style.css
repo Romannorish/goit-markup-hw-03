@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+/* img {
+    display: block;
+} */
 :root {
   --body-color: #ffffff;
   --logo-color: #2196f3;
@@ -22,8 +29,6 @@
   --main-description:#757575;
   --footer-color-logo: #ffffff;
   --footer-address:#ffffff;
-
-
 }
 
 body {
@@ -31,6 +36,7 @@ body {
 }
 
 /* Header section */
+
 .logo {
 font-family: Raleway;
 font-weight: 700;
@@ -39,6 +45,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--logo-color);
 }
+
 .second-logo-color {
   font-family: Raleway;
   font-weight: 700;
@@ -56,6 +63,7 @@ color: var(--logo-color);
   text-decoration: none;
   color: var(--header-link-studio)
 }
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
