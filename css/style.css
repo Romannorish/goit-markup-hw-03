@@ -37,6 +37,10 @@ body {
 
 /* Header section */
 
+.header_container {
+    display: flex;
+    align-items: center;
+}
 .logo {
 font-family: Raleway;
 font-weight: 700;
