@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -42,44 +44,6 @@ padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
-}
-.head-container{
-outline: 2px dashed tomato;
-display: flex;
-align-items: center;
-}
-
-.up-logo{
-margin-right: 93px;
-padding-top: 24px;
-padding-bottom: 25px;
-}
-.navigation{
-display: flex;
-align-items: center;
-}
-.header-list{
-display: flex;
-align-items: center;
-}
-.header-item{
-margin-right: 50px;
-padding: 32px 0px 32px 0px;
-}
-.header-item:last-child{
-margin: 0;
-}
-.header-list-c{
-display: flex;
-align-items: center;
-margin-left: auto;
-}
-.header-item-c{
-margin-right: 50px;
-padding: 32px 0px 32px 0px;
-}
-.header-item-c:last-child{
-  margin: 0;
 }
 
 .logo {
@@ -162,37 +126,6 @@ a {
 
 /* Main section */
 
-.main-title-container{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-outline: 2px dashed tomato;
-}
-.main-title{
-margin-top: 200px;
-}
-.btn-container{
-margin-bottom: 200px;
-margin-top: 30px;
-}
-
-.main-list{
-display: flex;
-justify-content: center;
-margin-top: 94px;
-margin-bottom: 94px;
-}
-.main-item{
-margin-right: 30px;
-}
-.main-item:last-child{
-margin: 0;
-}
-.main-h{
-margin-bottom: 10px;
-}
-
 .main-section {
   background-color: var(--main-background-color);
 }
@@ -231,22 +164,7 @@ margin-bottom: 10px;
 }
 
 /* about company */
-.about{
-display: flex;
-justify-content: center;
-margin-bottom: 50px;
-}
-.about-list{
-display: flex;
-justify-content: center;
-margin-bottom: 94px;
-}
-.about-item{
-margin-right: 30px;
-}
-.about-item:last-child{
-margin: 0;
-}
+
 .about {
   font-family: Roboto;
   font-size: 36px;
@@ -255,35 +173,6 @@ margin: 0;
   color:var(--about)
 }
 /* team section */
-
-.team{
-display: flex;
-justify-content: center;
-margin-top: 94px; 
-}
-
-.team-list{
-display: flex;
-justify-content: center;
-}
-.team-item{
-margin-right: 30px;
-}
-.team-item:last-child{
-margin: 0;
-}
-.team-name {
-display: flex;
-justify-content: center;
-margin-top: 30px;
-margin-bottom: 10px;
-}
-.team-post{
-display: flex;
-justify-content: center;
-margin-bottom: 30px;
-
-}
 
 .team-section {
   background-color: var(--team-background-color);
@@ -347,18 +236,7 @@ margin-bottom: 30px;
 }
 
 /* Footer section */
-.footer-container{ 
-outline: 2px dashed tomato;
-}
-.down-logo{ 
-margin-bottom: 20px;
-}
-.address-item{
-margin-bottom: 9px;
-}
-.address-item:last-child{
-margin: 0;
-}
+
 .footer {
   background-color: var(--footer-background);
 }
