@@ -44,8 +44,30 @@ padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
+outline: 2px solid red;
 }
 
+.head-container{
+display: flex;
+align-items: center;
+}
+
+.navigation{
+display: flex;
+align-items: center;
+}
+
+.up-logo{
+margin-right: 93px;
+}
+.header-list{
+display: flex;
+align-items: center;
+}
+
+.header-item + .header-item{
+margin-left: 50px;
+}
 .logo {
 font-family: Raleway;
 font-weight: 700;
