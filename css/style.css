@@ -229,9 +229,7 @@ a {
 .about-item + .about-item {
     margin-left: 30px;
 }
-.about-item:last-child {
-    margin: 0px;
-}
+
 .about {
     display: flex;
     justify-content: center;
